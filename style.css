@@ -1,0 +1,309 @@
+
+.section
+{
+  min-height : 100%;
+  min-width : 100%;
+}
+html,body
+{
+  height :100% ;
+  width : 100% ;
+}
+
+/* header */
+.navbar
+{
+  margin-bottom: 0px ;
+  background-color: white ;
+  opacity : 0.9 ;
+  border : 0px ;
+}
+
+.navbar-default .navbar-nav > li > a , .navbar-default .navbar-header .navbar-brand
+{
+  color: black ;
+  font-size : 20px ;
+}
+
+
+/* end header */
+/* develop*/
+
+/* page1 */
+
+@media screen and (max-width: 700px){
+  .itfest
+  {
+    margin-top: 200px ;
+  }
+  .inovasi
+  {
+    font-size : 25px ;
+    text-align: center;
+    margin-bottom: 20px ;
+  }
+  .penjelasan
+  {
+    background-color: ;
+    opacity : 0 ;
+    width: 400px ;
+    height: 150px ;
+    /*padding-left: 10px ;*/
+  }
+  .inovasi
+  {
+    font-size : 29px ;
+  }
+}
+.bg1
+{
+  background-image : url('img/background.jpg') ;
+}
+
+.page1-1{
+  /*margin-top: 130px ;*/
+  margin-left : 0 ;
+}
+
+.himati
+{
+  margin-top: 80px ;
+}
+.logohimati
+{
+  width: 1px ;
+}
+.itfest
+{
+  margin-top: 130px ;
+}
+.inovasi
+{
+  font-size : 35px ;
+}
+.foto-page1-1
+{
+  width: 200px;
+  margin-top : 10px ;
+  margin-bottom : 0px ;
+}
+
+.page1-2
+{
+  height : 160px ;
+}
+
+.bg1-2
+{
+  /*width : 800px ;
+  height: 200px ;*/
+  background-image: url('img/page1-2.png') ;
+  background-size: cover ;
+}
+.penjelasan
+{
+  /*opacity : 0 ;
+  padding-left: 90px ;*/
+}
+
+
+/* end page1 */
+/* page2 */
+
+@media screen and (max-width: 700px){
+  .page2-1
+  {
+    margin-top : 6px ;
+    text-align: right;
+    background-color:  ;
+  }
+}
+
+.speed
+{
+  opacity: 0.0 ;
+}
+
+/* end page2 */
+/* page3 */
+
+.bg3-kiri{
+  background-image: url('');
+  background-repeat: no-repeat ;
+  margin-right: 0px ;
+}
+
+.pes
+{
+  margin-top:4px ;
+}
+.futsal
+{
+  margin-top:4px ;
+}
+
+.page3-1
+{
+  width:350px ;
+  height : 60px ;
+  opacity : 0 ;
+}
+.page3-2
+{
+  width: 10px ;
+}
+.pes
+{
+  margin-top:30px ;
+}
+.futsal
+{
+  margin-top:15px ;
+}
+
+@media screen and (max-width: 700px){
+  .bg3-kiri{
+    background-image: url('');
+    background-repeat: no-repeat ;
+  }
+  .page3-1
+  {
+    margin-top : 15px ;
+    width:280px ;
+  }
+  .page3-2
+  {
+    width:1px ;
+  }
+  .pes
+  {
+    margin-top:15px ;
+  }
+  .futsal
+  {
+    margin-top:9px ;
+  }
+}
+
+.bg3-kanan
+{
+  background-image: url('');
+  background-repeat: no-repeat ;
+}
+@media screen and (max-width: 700px){
+  .bg3-kanan{
+    background-image: url('');
+    background-repeat: no-repeat ;
+  }
+  /*.page3-1
+  {
+    margin-top : 15px ;
+    width:280px ;
+  }
+  .page3-2
+  {
+    width:10px ;
+  }*/
+}
+
+.vector1{
+  background-image: url('img/vector1.png');
+  background-repeat : no-repeat ;
+  padding-bottom : 350px ;
+}
+
+@media screen and (max-width: 700px)
+{
+  .vector1{
+    background-image: url('img/vector1-mobile2.png');
+    background-repeat : no-repeat ;
+    padding-bottom : 100px ;
+  }
+}
+
+/* end page3 */
+/* page4 */
+
+.bg4
+{
+  background-color : #FFB001 ;
+}
+
+.text
+{
+  color : yellow ;
+  text-align : left ;
+}
+.call2
+{
+  text-align: left ;
+  opacity : 0 ;
+}
+.call, .call2
+{
+  opacity : 0 ;
+}
+@media screen and (max-width: 700px)
+{
+  .call
+  {
+    font-size : 27px ;
+    opacity : 0 ;
+  }
+  .call2
+  {
+    opacity : 0 ;
+  }
+  .kontak
+  {
+    font-size : 20px ;
+  }
+  .kontak2
+  {
+    font-size : 20px ;
+    text-align: center ;
+  }
+  .text
+  {
+    text-align: center ;
+  }
+}
+
+/* end page4 */
+/* page5 */
+
+.bg5-1
+{
+  background-color:black;
+  border-top : 20px solid #CCB601 ;
+  border-bottom : 20px solid #CCB601 ;
+  margin-top: 100px ;
+  margin-bottom : 100px ;
+  padding-top:30px;
+  padding-bottom: 140px ;
+}
+.bg5
+{
+  background-image: url('img/background.jp');
+}
+
+.icon
+{
+  width : 50px ;
+  padding-left : 2px ;
+  padding-right : 2px ;
+}
+
+.page5-logo
+{
+  width: 150px ;
+}
+.page5_logo2
+{
+  width: 80px ;
+}
+
+/* end page5 */
+
+
+/*end  develop*/

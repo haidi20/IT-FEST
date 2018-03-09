@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>IT FESTIVAL POLNES beta</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <link href="bootstrap/css/main.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- tambahan -->
+    <script src="bootstrap/plugins.js"></script>
+
+    <!-- css sendiri -->
+    <link rel="stylesheet" href="style2.css">
+
+  </head>
+  <body>
+
+    <!-- header -->
+    <nav class="navbar navbar-default navbar-fixed-top" id="header">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tenant.html">Tenant</a></li>
+                <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" role="button" area-expanded="false">Lomba</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="programming.html">Programming</a></li>
+                    <li><a href="futsal.html">Futsal</a></li>
+                    <li><a href="pes.html">PES</a></li>
+                    <li><a href="movie.html">Short Movie</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" data-toggle="dropdown" role="button" area-expanded="false">Event</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="talkshow.html">Talk Show</a></li>
+                    <li><a href="#">Festival</a></li>
+                    <li><a href="itcare.html">IT Care</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"><img src="img/itfest.png" style="width:100px" ></a></li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+    <!-- end header -->
+
+    <section class="section" style="background-color: #ecf0f1">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-xs-12 col-md-offset-4 col-md-4" style="background-color: ; text-align: center" >
+            <img src="img/poster-programming.jpg" class="img-responsive poster">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+    $(document).ready(function(){
+      $('.poster').animate({
+        opacity : 1
+      }, 900);
+    });
+    </script>
+
+  </body>
+</html>
